@@ -1,0 +1,36 @@
+TITLE="Gynécologue et suivi de grossesse à Boulogne-Billancourt | Centre SFFERe"
+DESC="Centre SFFERe, centre d'expertise en gynécologie obstétrique à Boulogne-Billancourt (11 rue de la Ferme) : gynécologie, fertilité, suivi de grossesse, échographie, sages-femmes, post-partum. Prise de rendez-vous en ligne."
+ACTIVE="accueil"
+read -r -d '' EXTRA_HEAD <<'JSON' || true
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Centre SFFERe",
+  "alternateName": "SFFERe, Spécialiste de la Femme, du Fœtus et de la Reproduction",
+  "url": "https://www.sffere.com/",
+  "logo": "https://www.sffere.com/img/SFFERe_logo3.png",
+  "telephone": "+33170834360",
+  "email": "info@sffere.com",
+  "medicalSpecialty": ["Obstetric", "Gynecologic", "Midwifery"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "11 rue de la Ferme",
+    "postalCode": "92100",
+    "addressLocality": "Boulogne-Billancourt",
+    "addressCountry": "FR"
+  },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+  ],
+  "sameAs": [
+    "https://www.facebook.com/CentreSFFERe/",
+    "https://www.instagram.com/centre.sffere/",
+    "https://fr.linkedin.com/company/sffere",
+    "https://www.youtube.com/@centresffere",
+    "https://www.doctolib.fr/cabinet-medical/boulogne-billancourt/institut-sffere-a-boulogne"
+  ]
+}
+</script>
+JSON
