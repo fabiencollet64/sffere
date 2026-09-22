@@ -44,13 +44,13 @@
    Base
    -------------------------------------------------------------------------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; overflow-x: clip; }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
 body {
-  margin: 0; overflow-x: hidden;
+  margin: 0; overflow-x: clip;
   font-family: var(--f-texte);
   font-size: var(--fs-base);
   line-height: var(--lh-base);
