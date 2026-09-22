@@ -1,0 +1,25 @@
+TITLE="Questions fréquentes : grossesse, échographie, gynécologie | Centre SFFERe Boulogne-Billancourt"
+DESC="Les réponses de l'équipe du Centre SFFERe (Boulogne-Billancourt) aux questions fréquentes : nombre d'échographies pendant la grossesse, première échographie, jumeaux, première consultation gynécologique, endométriose, rendez-vous et urgences."
+ACTIVE="faq"
+read -r -d '' EXTRA_HEAD <<'JSON' || true
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Combien d'échographies sont recommandées pendant la grossesse ?", "acceptedAnswer": { "@type": "Answer", "text": "Lorsque la grossesse se déroule bien, trois échographies, une par trimestre, sont recommandées. Elles servent à détecter certaines anomalies fœtales et placentaires, et sont aussi des moments précieux de rencontre avec le futur bébé." } },
+    { "@type": "Question", "name": "À quoi sert l'échographie du premier trimestre ?", "acceptedAnswer": { "@type": "Answer", "text": "Elle est réalisée entre 11 et 14 semaines d'aménorrhée. Elle permet de dater le début de la grossesse, participe au dépistage de la trisomie 21 et offre une première visualisation des organes du fœtus." } },
+    { "@type": "Question", "name": "L'échographie est-elle dangereuse pour le bébé ?", "acceptedAnswer": { "@type": "Answer", "text": "L'échographie utilise des ultrasons qui traversent la paroi abdominale. L'examen est indolore et ne présente aucun risque connu pour la mère ni pour le bébé." } },
+    { "@type": "Question", "name": "Grossesse gémellaire : que détermine la première échographie ?", "acceptedAnswer": { "@type": "Answer", "text": "L'échographie du premier trimestre permet de déterminer précocement le type de grossesse gémellaire : monochoriale, avec des vrais jumeaux partageant le même placenta, ou bichoriale, avec des jumeaux ayant chacun leur placenta." } },
+    { "@type": "Question", "name": "À quel âge consulter un gynécologue pour la première fois ?", "acceptedAnswer": { "@type": "Answer", "text": "Il n'y a pas d'âge défini. Une consultation est recommandée en cas de symptômes ou de besoin de contraception." } },
+    { "@type": "Question", "name": "Comment prendre rendez-vous au Centre SFFERe ?", "acceptedAnswer": { "@type": "Answer", "text": "En ligne sur Doctolib, praticien par praticien, ou par téléphone au 01 70 83 43 60 du lundi au vendredi de 8 h à 18 h et le samedi de 9 h à 13 h." } },
+    { "@type": "Question", "name": "Que faire en cas d'urgence ?", "acceptedAnswer": { "@type": "Answer", "text": "Contactez le centre au 01 70 83 43 60 pendant les horaires d'ouverture, ou appelez le SAMU en composant le 15." } }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.sffere.com/"},
+{"@type":"ListItem","position":2,"name":"Questions fréquentes"}]}
+</script>
+JSON

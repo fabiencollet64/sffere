@@ -1,0 +1,28 @@
+TITLE="Accès, horaires et contact du Centre SFFERe, 11 rue de la Ferme, Boulogne-Billancourt"
+DESC="Infos pratiques du Centre SFFERe à Boulogne-Billancourt : adresse (11 rue de la Ferme), horaires du lundi au samedi, accès métro Billancourt ligne 9, accessibilité, urgences, téléphone et e-mail."
+ACTIVE="infos"
+read -r -d '' EXTRA_HEAD <<'JSON' || true
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Centre SFFERe",
+  "url": "https://www.sffere.com/location",
+  "telephone": "+33170834360",
+  "email": "info@sffere.com",
+  "address": { "@type": "PostalAddress", "streetAddress": "11 rue de la Ferme", "postalCode": "92100", "addressLocality": "Boulogne-Billancourt", "addressCountry": "FR" },
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+  ],
+  "isAccessibleForFree": false,
+  "amenityFeature": [{ "@type": "LocationFeatureSpecification", "name": "Accès en fauteuil roulant", "value": true }],
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=11+rue+de+la+Ferme+92100+Boulogne-Billancourt"
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.sffere.com/"},
+{"@type":"ListItem","position":2,"name":"Infos pratiques"}]}
+</script>
+JSON

@@ -1,0 +1,41 @@
+<div class="conteneur fil-ariane"><nav aria-label="Fil d'Ariane"><ol><li><a href="index.html">Accueil</a></li><li aria-current="page">L'équipe</li></ol></nav></div>
+<section class="entete-page">
+  <div class="conteneur">
+    <span class="surtitre">L'équipe</span>
+    <h1>Une équipe pluridisciplinaire, réunie en un seul lieu</h1>
+    <p class="lead">Gynécologues-obstétriciens, échographistes, sages-femmes, ostéopathe, diététiciennes, psychologue et sophrologue : trouvez votre praticien par spécialité ou par nom.</p>
+  </div>
+</section>
+<section class="section" style="padding-top:1rem">
+  <div class="conteneur">
+    <div class="filtres">
+      <div>
+        <label for="recherche-nom">Rechercher un praticien</label>
+        <div class="champ-recherche">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input id="recherche-nom" type="search" placeholder="Nom ou spécialité, par exemple « Ballout » ou « sage-femme »" autocomplete="off">
+        </div>
+      </div>
+      <div>
+        <span class="filtres-label">Spécialité</span>
+        <div class="puces-filtre" id="puces-filtre" role="group" aria-label="Filtrer par spécialité"></div>
+      </div>
+    </div>
+    <p class="resultat-compte" id="resultat-compte" aria-live="polite"></p>
+    <div class="grille-praticiens" id="grille-praticiens"></div>
+    <p class="petit texte-doux" style="margin-top:1.5rem">Annuaire partiel : <span class="a-completer">[le site actuel liste plus de 40 praticiens ; les fiches non vérifiées ne sont pas reprises dans cette maquette]</span>. Les photos seront reprises des fiches actuelles.</p>
+  </div>
+</section>
+<section class="section section-sable">
+  <div class="conteneur">
+    <div class="cta-final">
+      <div><h2>Vous hésitez entre plusieurs praticiens ?</h2><p>Le secrétariat vous oriente vers la consultation adaptée à votre besoin.</p></div>
+      <div class="actions">
+        <a class="btn btn-clair btn-grand" href="tel:+33170834360">01 70 83 43 60</a>
+        <a class="btn btn-grand" style="border-color:rgba(255,255,255,0.6);color:#fff" href="https://www.doctolib.fr/cabinet-medical/boulogne-billancourt/institut-sffere-a-boulogne" data-doctolib="utm-a-verifier" rel="noopener">Rendez-vous Doctolib</a>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="data/praticiens.js"></script>
+<script src="js/equipe.js"></script>

@@ -1,0 +1,11 @@
+TITLE="Suivi de grossesse et échographie à Boulogne-Billancourt | Centre SFFERe"
+DESC="Parcours grossesse au Centre SFFERe, Boulogne-Billancourt : suivi de grossesse, échographies des trois trimestres, médecine fœtale et diagnostic prénatal, préparation à l'accouchement, monitoring. Rendez-vous en ligne."
+ACTIVE="parcours"
+read -r -d '' EXTRA_HEAD <<'JSON' || true
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.sffere.com/"},
+{"@type":"ListItem","position":2,"name":"Vos parcours","item":"https://www.sffere.com/#parcours"},
+{"@type":"ListItem","position":3,"name":"Grossesse"}]}
+</script>
+JSON

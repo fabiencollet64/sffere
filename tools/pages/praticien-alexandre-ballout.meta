@@ -1,0 +1,32 @@
+TITLE="Dr Alexandre Ballout, gynécologue-obstétricien à Boulogne-Billancourt | Centre SFFERe"
+DESC="Dr Alexandre Ballout, gynécologue-obstétricien au Centre SFFERe (Boulogne-Billancourt) : suivi de grossesse, échographie, chirurgie gynécologique mini-invasive, infertilité, endométriose, hystéroscopie. Prise de rendez-vous Doctolib."
+ACTIVE="equipe"
+read -r -d '' EXTRA_HEAD <<'JSON' || true
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Physician",
+  "name": "Dr Alexandre Ballout",
+  "honorificPrefix": "Dr",
+  "givenName": "Alexandre",
+  "familyName": "Ballout",
+  "medicalSpecialty": ["Obstetric", "Gynecologic"],
+  "jobTitle": "Gynécologue-obstétricien",
+  "knowsLanguage": ["fr", "en"],
+  "url": "https://www.sffere.com/specialists/Alexandre/",
+  "worksFor": { "@type": "MedicalClinic", "name": "Centre SFFERe", "url": "https://www.sffere.com/" },
+  "workLocation": {
+    "@type": "Place",
+    "address": { "@type": "PostalAddress", "streetAddress": "11 rue de la Ferme", "postalCode": "92100", "addressLocality": "Boulogne-Billancourt", "addressCountry": "FR" }
+  },
+  "telephone": "+33170834360",
+  "sameAs": ["https://www.doctolib.fr/gynecologue-obstetricien/boulogne-billancourt/alexandre-ballout"]
+}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Accueil","item":"https://www.sffere.com/"},
+{"@type":"ListItem","position":2,"name":"L'équipe","item":"https://www.sffere.com/specialists/team/"},
+{"@type":"ListItem","position":3,"name":"Dr Alexandre Ballout"}]}
+</script>
+JSON
