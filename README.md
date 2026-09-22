@@ -50,12 +50,8 @@ sur fond jaune, dans les pages. À reprendre depuis le site actuel :
 
 ## Déploiement GitHub Pages
 
-Le workflow `.github/workflows/pages.yml` publie la racine du dépôt à chaque push sur `main`.
-Une fois le dépôt `sffere-maquette` créé sur le compte `fabiencollet64` :
+Le dépôt est publié par GitHub Pages en mode « Deploy from a branch » (branche par défaut,
+dossier `/`, fichier `.nojekyll` présent). Chaque push sur cette branche redéploie le site
+en une à deux minutes.
 
-1. Pousser ce contenu sur la branche `main`.
-2. Dans Settings → Pages, choisir Source : « GitHub Actions ».
-3. L'URL sera https://fabiencollet64.github.io/sffere-maquette/
-
-Sans workflow, l'option « Deploy from a branch » (branche `main`, dossier `/`) fonctionne aussi,
-le fichier `.nojekyll` étant présent.
+URL de la maquette : https://fabiencollet64.github.io/sffere/
