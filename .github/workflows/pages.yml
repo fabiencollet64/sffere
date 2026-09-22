@@ -3,7 +3,7 @@
 name: Déployer la maquette sur GitHub Pages
 on:
   push:
-    branches: [main]
+    branches: [main, claude/cool-meitner-4kebs2]
   workflow_dispatch:
 permissions:
   contents: read
